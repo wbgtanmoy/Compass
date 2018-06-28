@@ -34,8 +34,7 @@ public class MainActivity extends Activity {
 
         } else {
             Log.e("Compass MainActivity", "Registerered for ORIENTATION Sensor");
-            Toast.makeText(this, "ORIENTATION Sensor not found",
-                    Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "ORIENTATION Sensor not found",  Toast.LENGTH_LONG).show();
             finish();
         }
     }
