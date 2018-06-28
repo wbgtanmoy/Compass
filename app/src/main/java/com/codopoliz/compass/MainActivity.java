@@ -31,7 +31,7 @@ public class MainActivity extends Activity {
             sensorService.registerListener(mySensorEventListener, sensor,
                     SensorManager.SENSOR_DELAY_NORMAL);
             Log.i("Compass MainActivity", "Registerered for ORIENTATION Sensor");
-            
+
         } else {
             Log.e("Compass MainActivity", "Registerered for ORIENTATION Sensor");
             Toast.makeText(this, "ORIENTATION Sensor not found",
