@@ -42,7 +42,7 @@ public class MyCompassView extends View {
         canvas.drawRect(0, 0, getMeasuredWidth(), getMeasuredHeight(), paint);
 
         // 3.143 is a good approximation for the circle
-        
+        //added by tanmoy
         canvas.drawLine(
                 xPoint,
                 yPoint,
